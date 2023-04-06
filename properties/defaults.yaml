@@ -1,0 +1,11 @@
+---
+files.html:
+  defaultPath: G:\
+  mounts:
+  - path: E
+    alias: Local Storage
+  - path: F
+    alias: External Backup
+  - path: G
+    alias: easy-store
+

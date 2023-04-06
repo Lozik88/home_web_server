@@ -1,0 +1,21 @@
+<html>
+<style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+</style>
+<table style="text-align: center;width: 100%;">
+    <tr>
+        <!-- Table headers -->
+        <th>Name</th>
+        <th>Date</th>
+        <th>Type</th>
+        <th>Size</th>
+    </tr>
+    <!-- Table data -->
+    {{ data|safe }}
+</table>
+
+</html>
